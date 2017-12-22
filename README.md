@@ -18,3 +18,4 @@ Like in the original CHA/V it has 6 VCOs, with selectables ranges, sync sources,
 
 * The __syncbus__ can be either connected to the vsyn or hsync of the VGA tester. This will send the selected sync to the jumperpins near the beggining of the Oscillator so you can either select each oscillator to be connected to this sync bus or not to be free running.
 * Since we are using pinheaders you can use patcables from any point of the pcb so anthoer oscillator can __modulate__ the sync of a specific oscillator...
+* Every voice output can be connected to any of the RGA VGA inputs with patchables, or can be patched somewhere else, to create complex patterns
