@@ -222,6 +222,10 @@
 <text x="90.25" y="37.75" size="1.778" layer="29" font="vector" ratio="10" rot="R90">BLUE</text>
 <text x="90" y="24.25" size="1.778" layer="29" font="vector" ratio="10" rot="R90">GREEN</text>
 <text x="90.25" y="12.5" size="1.778" layer="29" font="vector" ratio="10" rot="R90">RED</text>
+<text x="14.75" y="97.75" size="1.778" layer="1" font="vector">L</text>
+<text x="19.75" y="97.75" size="1.778" layer="1" font="vector">*</text>
+<text x="22.25" y="97.75" size="1.778" layer="1" font="vector">O</text>
+<text x="17.25" y="97.75" size="1.778" layer="1" font="vector">R</text>
 </plain>
 <libraries>
 <library name="40xx">
@@ -1035,7 +1039,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="34.3664" y="32.1886" size="1.27" layer="27" font="vector" ratio="12"/>
 </element>
 <element name="JP13" library="pinhead" package="1X04" value="" x="19" y="95.5" smashed="yes">
-<attribute name="NAME" x="13.8438" y="97.3288" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="13.92" y="92.325" size="1.27" layer="27"/>
 </element>
 <element name="U$1" library="MusicThingModular" package="M9040P" value="T-80-T-SPDT-ON-OFF-ON" x="13" y="83.5" smashed="yes"/>
@@ -1075,7 +1078,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="30.8114" y="1.8664" size="1.27" layer="27" ratio="12" rot="R90"/>
 </element>
 <element name="JP2" library="pinhead" package="1X04" value="" x="19" y="2.8" smashed="yes">
-<attribute name="NAME" x="13.8438" y="4.6288" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="13.92" y="-0.375" size="1.27" layer="27"/>
 </element>
 <element name="R8" library="adafruit" package="0204V" value="1k" x="36.5" y="20.5" smashed="yes" rot="R180">
