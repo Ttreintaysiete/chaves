@@ -8719,7 +8719,7 @@ Source: DCJ0202.pdf</description>
 <instance part="GND2" gate="1" x="210.82" y="53.34"/>
 <instance part="JIN3" gate="G$1" x="218.44" y="66.04"/>
 <instance part="GND4" gate="1" x="-43.18" y="142.24" rot="R270"/>
-<instance part="GND9" gate="1" x="-10.16" y="116.84" rot="R270"/>
+<instance part="GND9" gate="1" x="-43.18" y="116.84" rot="R270"/>
 <instance part="GND10" gate="1" x="-43.18" y="93.98" rot="R270"/>
 <instance part="GND11" gate="1" x="-43.18" y="71.12" rot="R270"/>
 <instance part="GND12" gate="1" x="-43.18" y="43.18" rot="R270"/>
@@ -9133,13 +9133,6 @@ Source: DCJ0202.pdf</description>
 </net>
 <net name="SS2" class="0">
 <segment>
-<pinref part="JP3" gate="A" pin="4"/>
-<pinref part="JP3" gate="A" pin="2"/>
-<wire x1="-17.78" y1="119.38" x2="-17.78" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="A" pin="6"/>
-<wire x1="-17.78" y1="116.84" x2="-17.78" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="119.38" x2="-17.78" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="129.54" x2="20.32" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="121.92" x2="17.78" y2="116.84" width="0.1524" layer="91"/>
@@ -9147,11 +9140,8 @@ Source: DCJ0202.pdf</description>
 <wire x1="27.94" y1="116.84" x2="25.4" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <junction x="25.4" y="116.84"/>
-<wire x1="25.4" y1="116.84" x2="20.32" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="116.84" x2="17.78" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="116.84" x2="17.78" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="116.84" x2="17.78" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="129.54" x2="20.32" y2="116.84" width="0.1524" layer="91"/>
-<junction x="20.32" y="116.84"/>
 </segment>
 </net>
 <net name="SS3" class="0">
@@ -9174,13 +9164,10 @@ Source: DCJ0202.pdf</description>
 <pinref part="IC1" gate="D" pin="I"/>
 <wire x1="27.94" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="71.12" x2="20.32" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="66.04" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <junction x="25.4" y="71.12"/>
-<wire x1="20.32" y1="81.28" x2="20.32" y2="71.12" width="0.1524" layer="91"/>
-<junction x="20.32" y="71.12"/>
 </segment>
 </net>
 <net name="SS5" class="0">
@@ -9414,6 +9401,36 @@ Source: DCJ0202.pdf</description>
 <wire x1="210.82" y1="63.5" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="JIN3" gate="G$1" pin="SLEEVE"/>
 </segment>
+<segment>
+<pinref part="JP12" gate="A" pin="3"/>
+<pinref part="GND13" gate="1" pin="GNDA"/>
+<wire x1="-40.64" y1="7.62" x2="-25.4" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP11" gate="A" pin="3"/>
+<pinref part="GND12" gate="1" pin="GNDA"/>
+<wire x1="-40.64" y1="43.18" x2="-25.4" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP10" gate="A" pin="3"/>
+<pinref part="GND11" gate="1" pin="GNDA"/>
+<wire x1="-40.64" y1="71.12" x2="-25.4" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP9" gate="A" pin="3"/>
+<pinref part="GND10" gate="1" pin="GNDA"/>
+<wire x1="-40.64" y1="93.98" x2="-25.4" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP8" gate="A" pin="3"/>
+<pinref part="GND4" gate="1" pin="GNDA"/>
+<wire x1="-40.64" y1="142.24" x2="-25.4" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="3"/>
+<pinref part="GND9" gate="1" pin="GNDA"/>
+<wire x1="-40.64" y1="116.84" x2="-25.4" y2="116.84" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$32" class="0">
 <segment>
@@ -9604,38 +9621,6 @@ Source: DCJ0202.pdf</description>
 <label x="187.96" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GNDA" class="0">
-<segment>
-<pinref part="JP12" gate="A" pin="3"/>
-<pinref part="GND13" gate="1" pin="GNDA"/>
-<wire x1="-40.64" y1="7.62" x2="-25.4" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP11" gate="A" pin="3"/>
-<pinref part="GND12" gate="1" pin="GNDA"/>
-<wire x1="-40.64" y1="43.18" x2="-25.4" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP10" gate="A" pin="3"/>
-<pinref part="GND11" gate="1" pin="GNDA"/>
-<wire x1="-40.64" y1="71.12" x2="-25.4" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP9" gate="A" pin="3"/>
-<pinref part="GND10" gate="1" pin="GNDA"/>
-<wire x1="-40.64" y1="93.98" x2="-25.4" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP8" gate="A" pin="3"/>
-<pinref part="GND4" gate="1" pin="GNDA"/>
-<wire x1="-40.64" y1="142.24" x2="-25.4" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="P"/>
-<pinref part="GND9" gate="1" pin="GNDA"/>
-<wire x1="-7.62" y1="116.84" x2="-5.08" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="JP8" gate="A" pin="4"/>
@@ -9721,6 +9706,17 @@ Source: DCJ0202.pdf</description>
 <wire x1="180.34" y1="76.2" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="JIN3" gate="G$1" pin="TIP"/>
 <wire x1="180.34" y1="68.58" x2="213.36" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="JP3" gate="A" pin="6"/>
+<pinref part="JP3" gate="A" pin="4"/>
+<pinref part="JP3" gate="A" pin="2"/>
+<wire x1="-17.78" y1="119.38" x2="-17.78" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="116.84" x2="-17.78" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="P"/>
+<wire x1="-17.78" y1="116.84" x2="-5.08" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
